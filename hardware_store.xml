@@ -1,0 +1,7 @@
+<uwsgi>
+	<socket>127.0.0.1:8080</socket>
+    <chdir>/srv/hardware_store/backend/</chdir>
+    <module>hardware_store.wsgi</module>
+    <processes>4</processes>
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>

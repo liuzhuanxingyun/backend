@@ -1,0 +1,13 @@
+asgiref==3.11.0
+certifi==2025.11.12
+charset-normalizer==3.4.4
+Django==5.2.8
+django-simpleui==2025.6.24
+idna==3.11
+pillow==12.0.0
+python-dotenv==1.2.1
+requests==2.32.5
+setuptools==80.9.0
+sqlparse==0.5.3
+urllib3==2.5.0
+wheel==0.45.1

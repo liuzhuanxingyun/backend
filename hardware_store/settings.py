@@ -124,3 +124,5 @@ MEDIA_URL = '/backend/media/'
 
 # 主键类型
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATIC_ROOT = 'srv/hardware_store/backend/static/'

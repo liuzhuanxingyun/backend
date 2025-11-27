@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 import os
 from pathlib import Path
+# 添加以下代码加载 .env
+from dotenv import load_dotenv
+load_dotenv()
 
 # 路径设置
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -79,7 +82,9 @@ DATABASES = {
     }
 }
 
-BACKEND_URL='https://www.fengnaix.fun'
+# 修改这里：根据你的实际端口（如8000或80）调整
+# BACKEND_URL='https://www.fengnaix.fun'
+BACKEND_URL='http://122.51.217.106:8000' 
 
 # 密码验证
 AUTH_PASSWORD_VALIDATORS = [
